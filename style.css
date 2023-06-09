@@ -1,0 +1,262 @@
+*{
+	font-family: cursive;
+}
+body{
+	width: 80%;
+}
+header{
+  position: relative;
+  left: 45px;
+}
+.starting{
+	align-content: center;
+	display: flex;
+	height: 87vh;
+	width: 190vh;
+	border-radius: 20px;
+	text-align: left;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+.starting{
+    background-image: linear-gradient(rgba(42,58,74,0.30),rgba(0, 0, 0, 0.95)), url("../img/strawberry.jpg");
+	background-color: rgba(0, 0, 0, 0.5);
+	background-size: cover;
+	color: black;
+	opacity: 1.0;
+}
+.start a{
+	text-decoration: none;
+	top: 35px;
+	flex: 1;
+	display: inline-block;
+	position: relative;
+	margin-right: 45px;
+	font-family: sans-serif;
+	font-size: 15px;
+    left: 135vh;
+    color: white;
+}
+.start a:hover{
+    color: black;
+}
+.h-s{
+	position: absolute;
+	color: white;
+	font-family: cursive;
+	top:10px;
+	left: 55px;
+	font-size: 35px;
+}
+.disco{
+	position: absolute;
+    color: white;
+    font-size: 60px;
+    font-family: unset;
+    top: 160px;
+    left: 180px;
+    letter-spacing: -2px;
+    word-spacing: -4px;
+    line-height: 1.0;
+}
+.welcome-message{
+	color: white;
+	position: absolute;
+	top: 330px;
+	font-size: 19px;
+	left: 180px;
+
+}
+.bottom-message{
+	color: white;
+	position: relative;
+	top:570px;
+	display: flex;
+	font-size: 17px;
+	left:1090px;
+}
+.menu{
+	position: relative;
+	text-align: center;
+	left: 150px;
+	font-size: 40px;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+    color: blue;
+}
+footer{
+	top: 280px;
+	color: white;
+	text-align: center;
+	position: relative;
+	padding: 5px;
+	background-color: rgba(0, 0, 0, 0.4);
+	height: 30%;
+	width: 198vh;
+	border-radius: 10px;
+}
+.idk{
+	position: relative;
+	top: 50px;
+	height: 35vh;
+	left: 150px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	justify-items: center;
+}
+.idk img{
+    width: 15em;
+    height: 13em;
+    transition: transform 0.6s ease;
+    border-radius: 20px;
+}
+.idk img:hover{
+	transform: scale(1.1);
+}
+.price1{
+	position: relative;
+	top: 10px;
+	left: 90px;
+	background-color: pink;
+	width: 18%;
+	padding: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.price2{
+    position: relative;
+	top: 17px;
+	left: 90px;
+	background-color: pink;
+	width: 20%;
+	padding: 10px;
+	border-radius: 10px;	
+	cursor: pointer;
+}
+.price3{
+    position: relative;
+	top: 17px;
+	left: 90px;
+	background-color: pink;
+	width: 22%;
+	padding: 10px;
+	border-radius: 10px;
+	cursor: pointer;	
+}
+.idk1{
+	position: relative;
+	top: 120px;
+	height: 39vh;
+	left: 150px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	justify-items: center;
+}
+.idk1 img{
+    width: 15em;
+    height: 13em;
+    transition: transform 0.6s ease;
+    border-radius: 20px;
+}
+.idk1 img:hover{
+    transform: scale(1.1);
+}
+.price4{
+    position: relative;
+	top: 17px;
+	left: 90px;
+	background-color: pink;
+	width: 18%;
+	padding: 10px;
+	border-radius: 10px;	
+	cursor: pointer;
+}
+.price5{
+    position: relative;
+	top: 17px;
+	left: 90px;
+	background-color: pink;
+	width: 18%;
+	padding: 10px;
+	border-radius: 10px;
+	cursor: pointer;	
+}
+.price6{
+    position: relative;
+	top: 17px;
+	left: 90px;
+	background-color: pink;
+	width: 18%;
+	padding: 10px;
+	border-radius: 10px;
+	cursor: pointer;	
+}
+.idk2{
+	position: relative;
+	top: 160px;
+	left: 150px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	justify-items: center;
+}
+.idk2 img{
+	width: 15em;
+	height: 13em;
+	transition: transform 0.6s ease;
+	border-radius: 20px;
+}
+.idk2 img:hover{
+	transform: scale(1.1);
+}
+.price7{
+    position: relative;
+	top: 17px;
+	left: 90px;
+	background-color: pink;
+	width: 18%;
+	padding: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.price8{
+    position: relative;
+	top: 17px;
+	left: 90px;
+	background-color: pink;
+	width: 18%;
+	padding: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.price9{
+    position: relative;
+	top: 17px;
+	left: 90px;
+	background-color: pink;
+	width: 18%;
+	padding: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.price9:hover,.price8:hover,.price7:hover,.price6:hover,.price5:hover,.price4:hover,.price3:hover,.price2:hover,.price1:hover{
+    background-color: hotpink;
+    color: red;
+}
+@media screen and (max-width: 667px) {
+}
+@media screen and (min-width: 767px) and (max-width: 1023px){
+}
+@media screen and(min-width: 1024px) and (max-width: 1279px){
+}
+@media only screen and(min-width: 1280px){
+}

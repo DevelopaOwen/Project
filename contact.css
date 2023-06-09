@@ -1,0 +1,211 @@
+body {
+	background-color: deeppink;
+	width: 70em;
+}
+#all{
+	position: relative;
+	display: grid;
+	top: 130px;
+	left: -8px;
+	place-items: center;
+	background: hotpink;
+	height: 20em;
+	width: auto;
+}
+.f-div{
+	position: absolute;
+	display: flex;
+    top: 20%;
+    height: 30%;
+}
+img{
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 12%;
+	left: 02%;
+	width: auto;
+	height: 15em;
+	z-index: 0;
+}
+p{
+	display: flex;
+	place-items: center;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+a{
+	color: whitesmoke;
+}
+a:hover{
+	color: blue;
+}
+.Contact a{
+	font-size: 13px;
+}
+.a{
+	position: relative;
+	top: -40px;
+	left: 250px;
+	font-size: 14px;
+}
+.Contact{
+	position: relative;
+	align-items: center;
+	top: 35px;
+	left: -50px;
+}
+.b{
+	top: 120px;
+	left: -220px;
+	font-size: 14px;
+	position: relative;
+}
+.img-img{
+	position: relative;
+    display: flex;
+    place-items: center;
+}
+.img1{
+	position: absolute;
+    left: 410px;
+    top: 82px;
+    height: 25px;
+    width: 25px;
+    mix-blend-mode: multiply;
+}
+.img2{
+    position: absolute;
+    left: 445px;
+    top: 82px;
+    height: 25px;
+    width: 25px;
+    mix-blend-mode: multiply;
+}
+.img3{
+    position: absolute;
+    left: 475px;
+    top: 82px;
+    height: 25px;
+    width: 25px;
+    mix-blend-mode: multiply;
+}
+.img4{
+    position: absolute;
+    left: 510px;
+    top: 82px;
+    height: 25px;
+    width: 25px;
+    mix-blend-mode: multiply;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+	body {
+	background-color: deeppink;
+	width: 70em;
+}
+#all{
+	position: relative;
+	display: grid;
+	top: 130px;
+	left: -8px;
+	place-items: center;
+	background: hotpink;
+	height: 15em;
+	width: auto;
+}
+.f-div{
+	position: absolute;
+	display: flex;
+    top: 20%;
+    height: 30%;
+}
+img{
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 12%;
+	left: 0%;
+	width: auto;
+	height: 8em;
+	z-index: 0;
+}
+p{
+	display: flex;
+	place-items: center;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+a{
+	color: whitesmoke;
+}
+a:hover{
+	color: blue;
+}
+.Contact a{
+	font-size: 13px;
+}
+.a{
+	position: relative;
+	top: -40px;
+	left: -80px;
+	font-size: 10px;
+}
+.Contact{
+	position: relative;
+	align-items: center;
+	top: 35px;
+	left: -50px;
+}
+.b{
+	top: 120px;
+	left: -220px;
+	font-size: 14px;
+	position: relative;
+}
+.img-img{
+	position: relative;
+    display: flex;
+    place-items: center;
+}
+.img1{
+	position: absolute;
+    left: 410px;
+    top: 82px;
+    height: 25px;
+    width: 25px;
+    mix-blend-mode: multiply;
+}
+.img2{
+    position: absolute;
+    left: 445px;
+    top: 82px;
+    height: 25px;
+    width: 25px;
+    mix-blend-mode: multiply;
+}
+.img3{
+    position: absolute;
+    left: 475px;
+    top: 82px;
+    height: 25px;
+    width: 25px;
+    mix-blend-mode: multiply;
+}
+.img4{
+    position: absolute;
+    left: 510px;
+    top: 82px;
+    height: 25px;
+    width: 25px;
+    mix-blend-mode: multiply;
+}
+@media screen and (min-width: 767px) and (max-width: 1023px){
+}
+@media screen and(min-width: 1024px) and (max-width: 1279px){
+}
+@media only screen and(min-width: 1280px){
+}

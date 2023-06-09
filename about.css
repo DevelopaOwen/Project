@@ -1,0 +1,137 @@
+*{
+	font-family: cursive;
+}
+body{
+	background-image: url("../img/popsicle2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1{
+	position: relative;
+	top: -20px;
+	color: white;
+	text-align: center;
+	font-family: cursive;
+	font-size: 30px;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.first img{
+	height: 300px;
+    width: 50%;
+    border-radius: 40px;
+}
+.first{
+	color: white;
+	background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    height: 38%;
+    width: 43%;
+    border-radius: 40px;
+    overflow: hidden;
+    left: 200px;
+    top: 60px;
+}
+.ppp{
+	font-size: 13px;
+	position: relative;
+	top: -307px;
+	left: 380px;
+}
+.second img{
+	height: 300px;
+	width: 50%;
+	border-radius: 40px;
+}
+.second{
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	height: 38%;
+	width: 43%;
+	border-radius: 40px;
+	overflow: hidden;
+	left: 700px;
+	top: 380px;
+}
+.pppp{
+	font-size: 13px;
+	position: relative;
+	top: -300px;
+	left: 375px;
+	word-spacing: 2px;
+	line-height: 14px;
+}
+.third img{
+	height: 300px;
+    width: 50%;
+    border-radius: 40px;
+}
+.third{
+	color: white;
+	background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    height: 38%;
+    width: 43%;
+    border-radius: 40px;
+    overflow: hidden;
+    top: 700px;
+    left: 200px;
+}
+.ppppp{
+	font-size: 13px;
+	position: relative;
+	top: -300px;
+	left: 380px;
+}
+.last{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    position: absolute;
+    height: 220px;
+    width: 36%;
+    border-radius: 40px;
+    overflow: hidden;
+    top: 960px;
+    left: 950px;
+}
+.last img{
+	height: 220px;
+	width: 38%;
+	border-radius: 40px;
+}
+.pppppp{
+    font-size: 14px;
+    position: relative;
+    top: -215px;
+    left: 250px;
+}
+a{
+	color: white;
+}
+a:hover{
+	color: red;
+	background-color: rgba(100, 80, 80,0.7);
+	border-radius: 10px;
+	padding: 5px;
+}
+.hac{
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: 60px;
+	left: 85%;
+	padding: 5px;
+	display: inline-block;
+	border-radius: 10px;
+}@media only screen and(max-width: 767px) {
+
+}
+@media only screen and(min-width: 768px) and (max-width: 1023px){
+
+}
+@media only screen and(min-width: 1024px) and (max-width: 1279px){
+
+}
+@media only screen and(min-width: 1280px){
+
+}
